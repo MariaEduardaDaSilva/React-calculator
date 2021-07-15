@@ -1,0 +1,43 @@
+.justify-center {
+  justify-content: center;
+  display: flex;
+}
+
+#root {
+  background-image: url('https://cdn.pixabay.com/photo/2015/11/10/08/22/pay-1036469_960_720.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.bg-calculator {
+  background-color: #c058da;
+  width: 400px;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 10rem;
+  -webkit-box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.71); 
+box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.71);
+}
+
+.bg-number {
+  background-color: #592666;
+}
+
+button {
+  width: 80%;
+  margin: 7px !important
+}
+
+input[type=text] {
+  margin-top: 5px !important ;
+  width: 96% !important;
+  margin-left: 6px !important;
+  background-color: #24092b71 !important;
+  border: none;
+  color: white;
+  text-align: right
+}
